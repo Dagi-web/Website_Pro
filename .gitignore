@@ -1,0 +1,56 @@
+# ========================
+# OS FILES
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# EDITOR & IDE FILES
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ========================
+# TEMP & LOG FILES
+# ========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ========================
+# NODE (if ever used)
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# DRAFT / WORK IN PROGRESS
+# ========================
+draft-*
+wip-*
+test-*
+old-*
+backup-*
+
+# ========================
+# PRIVATE / SENSITIVE
+# ========================
+.env
+.env.local
+secrets.txt
+private/
