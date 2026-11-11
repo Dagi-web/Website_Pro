@@ -1341,5 +1341,11 @@
     }, { threshold: 0.1 });
     revealEls.forEach(el => observer.observe(el));
   </script>
+
+  <!-- Vercel Web Analytics -->
+  <script type="module">
+    import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.mjs';
+    inject();
+  </script>
 </body>
 </html>

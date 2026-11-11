@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-dagi",
+  "version": "1.0.0",
+  "description": "Dagem Taddese — Commercial Growth Strategist Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [],
+  "author": "Dagem Taddese",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
